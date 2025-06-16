@@ -2,7 +2,7 @@ from flask_sqlalchemy import SQLAlchemy
 from geoalchemy2 import Geometry
 from sqlalchemy import Date, String, Integer
 
-db = SQLAlchemy()
+db = SQLAlchemy() 
 
 class Basura(db.Model):
     __tablename__ = 'basura'
