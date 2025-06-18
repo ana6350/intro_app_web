@@ -3,3 +3,8 @@
 #formulario {
     width: 5opx;
 }
+
+body {
+    margin:0;
+    padding: 0cap;
+}
